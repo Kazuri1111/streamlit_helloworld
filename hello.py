@@ -69,5 +69,3 @@ st.pyplot(fig)
 
 with st.sidebar:
     page = st.selectbox("aaaa", ("page1", "page2", "page3"))
-
-st.balloons()
