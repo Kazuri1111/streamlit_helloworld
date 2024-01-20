@@ -9,7 +9,8 @@ import io
 st.title('Hello World!!!!')
 
 DATE_COLUMN = 'date/time'
-DATA_PATH = ("./uber-raw-data-sep14.csv")
+DATA_PATH = ("https://s3-us-west-2.amazonaws.com/"
+             "streamlit-demo-data/uber-raw-data-sep14.csv.gz")
 
 @st.cache_data
 def load_data(nrows):
